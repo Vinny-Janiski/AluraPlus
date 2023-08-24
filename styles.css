@@ -1,0 +1,266 @@
+:root{
+
+--firstwhite: #FFFFFF;
+--secondgrey: #C0C0C0;
+--bluebutton: #167BF7;
+--backgcolor: #00030C;
+--fonte-principal: 'Inter';
+
+
+}
+
+body{
+
+    background-color:var(--backgcolor);
+    color: var(--firstwhite);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+
+
+
+}
+
+*.{
+margin: 0;
+padding: 0;
+
+}
+
+.principal{
+
+background: url("img/Background.png");
+background-repeat: no-repeat;
+background-size: contain;
+align-items: center;
+
+}
+
+.container{
+
+height: 100vh;
+display: grid;
+grid-template-columns: 50% 50%;
+
+}
+
+.container__botao{
+
+
+
+background-color: var(--bluebutton);
+border-radius: 5px;
+padding: 1em;
+color: var(--firstwhite);
+display: block;
+text-decoration: none;
+margin-bottom: 1em;
+
+
+}
+
+.botao_secundario{
+
+background-color: transparent;
+border: 3px solid var(--firstwhite);
+
+
+}
+
+.container__aviso{
+
+font-size: 12px;
+color: var(--secondgrey);
+
+
+
+}
+
+.container__titulo{
+
+font-size: 28px;
+font-weight: 700;
+
+
+
+
+}
+.container__imagem{
+
+margin: 1em 0 2em 0;
+
+
+}
+.container__caixa{
+
+margin: 0 6em;
+
+
+}
+
+.secundario__imagem{
+width: 80%;
+
+
+
+}
+
+.secundario{
+
+align-items: center;
+margin: 0 10em;
+
+
+
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--firstwhite);
+    margin-bottom: 0.1em;
+
+
+
+
+
+
+}
+
+
+.descricao__texto{
+
+color: var(--secondgrey);
+
+
+
+}
+
+.secundario__botao{
+
+display: inline-block;
+margin-top: 1em;
+
+
+
+}
+
+.container__descricao{
+
+padding: 2em;
+
+
+
+}
+
+.dispositivo__lista{
+
+display: flex;
+justify-content: center;
+list-style-type: none;
+margin: 5em 0;
+
+
+
+
+}
+
+.dispositivos{
+
+text-align: center;
+
+
+
+}
+
+.dispositivo__titulo{
+
+    font-size: 48px;
+    color: var(--firstwhite);
+ 
+
+
+
+
+
+}
+
+.lista__item{
+
+
+
+font-size: 32px ;
+
+
+
+
+}
+
+.rodape__lista{
+display: flex;
+color: var(--firstwhite);
+font-family: var(--fonte-principal);
+font-family: 10px;
+gap: 50px;
+list-style-type: none;
+position: relative;
+left: 10%;
+
+
+
+}
+
+.rodape{
+
+display: flex;
+flex-direction: column;
+
+
+}
+
+.rodape__logo{
+
+
+width: 10%;
+position: relative;
+left: 45%;
+margin-bottom: 100px;
+
+
+
+}
+
+.rodape__texto{
+
+display: flex;
+flex-direction: column;
+
+
+
+
+}
+
+.alura__texto{
+
+display: flex;
+position: relative;
+left:20%;
+
+
+
+
+}
+
+.lista__link{
+
+text-decoration: none;
+color: var(--firstwhite);
+
+
+
+}
+
+.lista__link a:hoover { color: var(--botao-azul);
+}
+
+.lista__link a:hoover { color: var(--botao-azul);}
